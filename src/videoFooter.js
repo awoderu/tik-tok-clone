@@ -6,6 +6,7 @@ import { motion } from "motion/react";
 // import Ticker from 'react-ticker';
 
 
+
 function VideoFooter() {
   return (
     <div className='videoFooter'>
@@ -24,11 +25,12 @@ function VideoFooter() {
                 <span>Item 1</span><span>Item 2</span><span>Item 3</span>
                 <span>Item 1</span><span>Item 2</span><span>Item 3</span>
               </motion.div>
+              <img className='videoFooter__record' src='https://static.thenounproject.com/png/934821-200.png' alt='' />
             </div>
           </div>
               {/* <Ticker/> */}
+              
       </div>
-      <img className='videoFooter__record' src='https://static.thenounproject.com/png/934821-200.png' alt='' />
     </div>
   )
 }
